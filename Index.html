@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Finder</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" href="https://cdn-icons-png.freepik.com/256/145/145847.png?semt=ais_hybrid">
+</head>
+<body id="Body">
+    <div class="plate" id="plate">
+        <div class="header" id="header">Details Finder</div>
+        <img src="https://cdn-icons-png.flaticon.com/512/6080/6080012.png" alt="ID Icon" width="50px">
+            <div class="Input_section">
+                <input class="Input" type="text" id="IDInput" required>
+                <label for="IDInput" class="Placeholder">Your NIC number</label>
+            </div>
+            <button class="button" id="button" type="button" onclick="search()">Search</button>
+                <div class="messages">
+                    <div class="labelline">
+                        ID Type : <span id="result" class="text"></span>
+                    </div>
+                    <div class="labelline">
+                        Gender : <span id="gender" class="text"></span>
+                    </div>
+                    <div class="labelline">
+                        Birth Year : <span id="byear" class="text"></span>
+                    </div>
+                    <div class="labelline">
+                        Birth Month : <span id="bmonth" class="text"></span>
+                    </div>
+                    <div class="labelline">
+                        Birth Day : <span id="bday" class="text"></span>
+                    </div>
+                </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+</html>
