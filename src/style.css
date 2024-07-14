@@ -118,3 +118,8 @@
             color: #b4b4b4;
             background-color: #2e2e2e;
         }
+        @media (max-width:767px){
+            .Placeholder{
+                width: 140px;
+            }
+        }
